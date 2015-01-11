@@ -5,6 +5,7 @@ require 'rspec/rails'
 require 'rspec/autorun'
 
 require 'ci/reporter/rspec'
+#require 'ci/reporter/rake/rspec_loader'
 
 
 # Requires supporting ruby files with custom matchers and macros, etc,
