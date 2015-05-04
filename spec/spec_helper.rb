@@ -24,6 +24,12 @@ RSpec.configure do |config|
   # from deprecation warning in rspec 2.99
   #config.infer_spec_type_from_file_location!
 
+
+  # To avoid having to do :tagname => true
+  config.treat_symbols_as_metadata_keys_with_true_values = true
+  # now you can add tags like:  describe "something", :invoicing do ... end
+  # and it's equivalent to:     describe "something", :invoicing=>true do ... end
+
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
