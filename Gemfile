@@ -14,6 +14,7 @@ gem 'sqlite3'
 
 group :development, :test do
   gem 'debugger'
+  gem 'pry'
   gem 'ci_reporter', '~> 1.6'
   gem 'rspec-rails', '2.11.0'
   gem 'rspec'
