@@ -1,1 +1,6 @@
---color
+#--color
+#--format html -o tmp/rspec.html
+--format progress
+#--require 'ci/reporter/rspec'
+#--format CI::Reporter::RSpec
+#--format ComponentFormatter
