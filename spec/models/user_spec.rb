@@ -10,7 +10,7 @@ describe User, :procurement, :core do
     puts "yay"
   end
   it "should fail" do
-    expect(1).to eq(2), "booo"
+    expect(1).to eq(2), "boooooo"
   end
 end
 
