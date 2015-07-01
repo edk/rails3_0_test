@@ -7,9 +7,10 @@ describe User, :procurement, :core do
 
   it "should pass" do
     expect(1).to eq(1)
+    puts "yay"
   end
   it "should fail" do
-    expect(1).to eq(2)
+    expect(1).to eq(2), "boooooo"
   end
 end
 
